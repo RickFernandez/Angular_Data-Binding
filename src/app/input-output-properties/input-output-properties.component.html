@@ -1,0 +1,13 @@
+<section class="input-output-properties">
+    <article>
+        <h3>Input Properties</h3>
+
+        <app-input-property [nome]="nomeDoCurso" ></app-input-property>
+    </article>
+
+    <article>
+        <h3>Output Properties</h3>
+
+        <app-output-property [valor]=valorInicial (mudouValor)="onMudouValor($event)" ></app-output-property>
+    </article>
+</section>
